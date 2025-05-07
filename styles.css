@@ -40,12 +40,18 @@ body {
 }
 
 .left-nav {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 0px;
   left: 0;
   width: 100px;
   height: 100vh;
-  border: 3px solid #517e13;
+  background-color: #1d2434;
+}
+
+.left-nav a {
+  color: white;
 }
 
 @media (max-width: 500px) {
@@ -60,9 +66,6 @@ body {
     display: none;
   }
 }
-
-@media (max-width: 1540px) {
-  .left-nav {
-    display: none;
-  }
+.left-nav {
+  visibility: hidden;
 }
