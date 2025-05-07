@@ -1,0 +1,30 @@
+.hero-image {
+  width: 800px;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.solutions-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.solutions-list-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 500px) {
+  .hero-image {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  .solutions-list-container {
+    flex-direction: column;
+  }
+}

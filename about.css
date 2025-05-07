@@ -1,0 +1,35 @@
+/* About Us page */
+#About-Us {
+  text-align: center;
+}
+
+.About-Us-Names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.About-Us-Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  flex-direction: row;
+}
+
+@media (max-width: 1540px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
